@@ -5,6 +5,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Home from "./pages/Home/Home";
 import { HelmetProvider } from "react-helmet-async";
+import Dashboard from "./Dashboard";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,24 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+    ],
+  },
+  {
+    path: "/dashboard",
+    element: <Dashboard />,
+    children: [
+      {
+        path: "/",
+      },
+      {
+        path: "add-task",
+      },
+      {
+        path: "running-tasks",
+      },
+      {
+        path: "completed-tasks",
       },
     ],
   },

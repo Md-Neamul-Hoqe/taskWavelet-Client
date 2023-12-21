@@ -44,7 +44,7 @@ const Home = () => {
               />
             </div>
 
-            <Link to="/tasks" className="btn btn-primary">
+            <Link to="/dashboard" className="btn btn-primary">
               Let&apos;s Explore
             </Link>
           </div>
