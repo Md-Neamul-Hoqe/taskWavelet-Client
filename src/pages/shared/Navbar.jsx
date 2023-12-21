@@ -42,7 +42,16 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">TaskWavelet</a>
+        <div className="btn btn-ghost text-xl flex items-center h-min">
+          <a
+            className="sr-only"
+            href="https://www.flaticon.com/free-icons/to-do"
+            title="to-do icons">
+            To-do icons created by Freepik - Flaticon
+          </a>
+          <img src="/to-do-list.png" width="60" height="60" alt="logo" />
+          TaskWavelet
+        </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>

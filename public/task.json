@@ -1,0 +1,163 @@
+[
+    {
+      "id": 1,
+      "title": "Complete Project Proposal",
+      "description": "Write and submit the project proposal by the deadline.",
+      "deadline": "2023-04-15",
+      "priority": "high",
+      "status": "to-do"
+    },
+    {
+      "id": 2,
+      "title": "Design Landing Page",
+      "description": "Create a visually appealing landing page for the website.",
+      "deadline": "2023-04-20",
+      "priority": "moderate",
+      "status": "ongoing"
+    },
+    {
+      "id": 3,
+      "title": "Implement User Authentication",
+      "description": "Integrate user authentication with Google Sign-In and custom login system.",
+      "deadline": "2023-04-25",
+      "priority": "high",
+      "status": "to-do"
+    },
+    {
+      "id": 4,
+      "title": "Task List Drag-and-Drop",
+      "description": "Implement drag-and-drop functionality for task lists on the dashboard.",
+      "deadline": "2023-05-01",
+      "priority": "high",
+      "status": "ongoing"
+    },
+    {
+      "id": 5,
+      "title": "Create User Profiles",
+      "description": "Design and implement user profiles with profile pictures.",
+      "deadline": "2023-05-05",
+      "priority": "moderate",
+      "status": "to-do"
+    },
+    {
+      "id": 6,
+      "title": "Add Task Editing Feature",
+      "description": "Enable users to edit task details and save changes.",
+      "deadline": "2023-05-10",
+      "priority": "moderate",
+      "status": "completed"
+    },
+    {
+      "id": 7,
+      "title": "Implement Notifications",
+      "description": "Integrate toast notifications for task assignments, updates, and deadlines.",
+      "deadline": "2023-05-15",
+      "priority": "moderate",
+      "status": "ongoing"
+    },
+    {
+      "id": 8,
+      "title": "Optimize for Mobile",
+      "description": "Ensure the application is responsive and works well on various devices.",
+      "deadline": "2023-05-20",
+      "priority": "low",
+      "status": "to-do"
+    },
+    {
+      "id": 9,
+      "title": "Write Unit Tests",
+      "description": "Create unit tests for backend logic using testing tools.",
+      "deadline": "2023-05-25",
+      "priority": "moderate",
+      "status": "ongoing"
+    },
+    {
+      "id": 10,
+      "title": "Implement WebSocket for Real-Time Updates",
+      "description": "Enable real-time updates for collaborative editing of tasks.",
+      "deadline": "2023-06-01",
+      "priority": "high",
+      "status": "to-do"
+    },
+    {
+      "id": 11,
+      "title": "Design Data Visualization",
+      "description": "Create charts and graphs to visualize task completion statistics.",
+      "deadline": "2023-06-05",
+      "priority": "moderate",
+      "status": "ongoing"
+    },
+    {
+      "id": 12,
+      "title": "Implement CRON Jobs for Reminders",
+      "description": "Set up CRON jobs for sending task reminders at specified times.",
+      "deadline": "2023-06-10",
+      "priority": "high",
+      "status": "to-do"
+    },
+    {
+      "id": 13,
+      "title": "Enhance Security Measures",
+      "description": "Implement security best practices, secure against injection attacks, and XSS.",
+      "deadline": "2023-06-15",
+      "priority": "high",
+      "status": "ongoing"
+    },
+    {
+      "id": 14,
+      "title": "Implement Search Functionality",
+      "description": "Add a search bar for quickly finding tasks based on keywords or categories.",
+      "deadline": "2023-06-20",
+      "priority": "moderate",
+      "status": "to-do"
+    },
+    {
+      "id": 15,
+      "title": "Collaboration Features",
+      "description": "Enable users to share tasks and collaborate with others.",
+      "deadline": "2023-06-25",
+      "priority": "high",
+      "status": "ongoing"
+    },
+    {
+      "id": 16,
+      "title": "Write Unit Tests for Frontend",
+      "description": "Develop unit tests for frontend components using testing libraries.",
+      "deadline": "2023-07-01",
+      "priority": "moderate",
+      "status": "to-do"
+    },
+    {
+      "id": 17,
+      "title": "Optimize Backend for Scalability",
+      "description": "Design the backend to be scalable for potential future growth.",
+      "deadline": "2023-07-05",
+      "priority": "high",
+      "status": "ongoing"
+    },
+    {
+      "id": 18,
+      "title": "Implement Task Categories and Labels",
+      "description": "Create a categorization system for tasks with labels and categories.",
+      "deadline": "2023-07-10",
+      "priority": "moderate",
+      "status": "to-do"
+    },
+    {
+      "id": 19,
+      "title": "Enhance Dashboard Data Visualization",
+      "description": "Improve charts and graphs for better visualization of task data.",
+      "deadline": "2023-07-15",
+      "priority": "moderate",
+      "status": "ongoing"
+    },
+    {
+      "id": 20,
+      "title": "Create Task Manager Mobile App",
+      "description": "Develop a mobile application for managing tasks on the go.",
+      "deadline": "2023-07-20",
+      "priority": "high",
+      "status": "to-do"
+    }
+  ]
+  
