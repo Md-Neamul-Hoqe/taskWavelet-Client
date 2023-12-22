@@ -12,4 +12,8 @@
 a.active {
   @apply bg-transparent text-black font-extrabold !important;
 }
-
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+  -webkit-text-stroke: 2px rgba(0, 255, 255, 0.283);
+}

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Brand from "./Brand";
 
 const Navbar = () => {
   const navLinks = (
@@ -42,16 +43,7 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <div className="btn btn-ghost text-xl flex items-center h-min">
-          <a
-            className="sr-only"
-            href="https://www.flaticon.com/free-icons/to-do"
-            title="to-do icons">
-            To-do icons created by Freepik - Flaticon
-          </a>
-          <img src="/to-do-list.png" width="60" height="60" alt="logo" />
-          TaskWavelet
-        </div>
+        <Brand />
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
@@ -73,7 +65,9 @@ const Navbar = () => {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-300 rounded-box w-52">
             <li>
-              <a className="justify-between">Profile</a>
+              <Link to="/dashboard" className="justify-between">
+                Profile
+              </Link>
             </li>
             <li>
               <a>Settings</a>

@@ -14,11 +14,11 @@ const Home = () => {
         }}>
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md">
-            <h1 className="mb-5 text-5xl  font-bold whitespace-nowrap">
+          <div className="text-cyan-100">
+            <h1 className="mb-5 text-5xl font-bold">
               Your Task Manager
             </h1>
-            <div className="font-medium mb-5">
+            <div className="font-medium mb-5 text-xl text-black">
               <Typewriter
                 options={{
                   strings: [

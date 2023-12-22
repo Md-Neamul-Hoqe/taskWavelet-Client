@@ -6,6 +6,10 @@ import App from "./App";
 import Home from "./pages/Home/Home";
 import { HelmetProvider } from "react-helmet-async";
 import Dashboard from "./Dashboard";
+import NewTask from "./pages/NewTask/NewTask";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import ToDo from "./pages/ToDo/ToDo";
+import { ToastContainer } from "react-toastify";
 
 const router = createBrowserRouter([
   {
@@ -23,25 +27,26 @@ const router = createBrowserRouter([
     element: <Dashboard />,
     children: [
       {
-        path: "/",
+        path: "",
+        element: <ToDo />,
       },
       {
         path: "add-task",
-      },
-      {
-        path: "running-tasks",
-      },
-      {
-        path: "completed-tasks",
+        element: <NewTask />,
       },
     ],
   },
 ]);
 
+const queryClient = new QueryClient();
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HelmetProvider>
-      <RouterProvider router={router} />
-    </HelmetProvider>
+    <QueryClientProvider client={queryClient}>
+      <HelmetProvider>
+        <RouterProvider router={router} />
+      </HelmetProvider>
+    </QueryClientProvider>
+    <ToastContainer />
   </React.StrictMode>
 );
