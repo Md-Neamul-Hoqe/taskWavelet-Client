@@ -3,16 +3,6 @@ import Brand from "./pages/shared/Brand";
 import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 
 const Dashboard = () => {
-  // const { data: onGoing, isLoading:isLoadingOnGoing } = useQuery({
-  //   queryKey: ["onGoing"],
-  //   queryFn: async () => {
-  //     const res = await axios.get("/task.json");
-
-  //     console.log(res?.data);
-
-  //     return res?.data;
-  //   },
-  // });
 
   return (
     <main className="flex min-h-screen">
@@ -63,34 +53,9 @@ const Dashboard = () => {
                 </Link>
               </li>
               <li>
-                <HashLink smooth to="/#to-do-list">
-                  To Do
+                <HashLink smooth to="/dashboard">
+                  Tasks
                 </HashLink>
-                {/* <Link
-                  className="py-2 hover:border-b rounded-none"
-                  to="/dashboard">
-                  To Do
-                </Link> */}
-              </li>
-              <li>
-                <HashLink smooth to="/#on-going-tasks">
-                  On Going Tasks
-                </HashLink>
-                {/* <Link
-                  className="py-2 hover:border-b rounded-none"
-                  to="/dashboard/running-tasks">
-                  On Going Tasks
-                </Link> */}
-              </li>
-              <li>
-                <HashLink smooth to="/#completed-tasks">
-                  On Going Tasks
-                </HashLink>
-                {/* <Link
-                  className="py-2 hover:border-b rounded-none"
-                  to="/dashboard/completed-tasks">
-                  Completed Tasks
-                </Link> */}
               </li>
             </ul>
 

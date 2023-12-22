@@ -8,8 +8,8 @@ import { HelmetProvider } from "react-helmet-async";
 import Dashboard from "./Dashboard";
 import NewTask from "./pages/NewTask/NewTask";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import ToDo from "./pages/ToDo/ToDo";
 import { ToastContainer } from "react-toastify";
+import Tasks from "./pages/Tasks/Tasks";
 
 const router = createBrowserRouter([
   {
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: "",
-        element: <ToDo />,
+        element: <Tasks />,
       },
       {
         path: "add-task",
