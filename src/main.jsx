@@ -10,6 +10,8 @@ import NewTask from "./pages/NewTask/NewTask";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ToastContainer } from "react-toastify";
 import Tasks from "./pages/Tasks/Tasks";
+import EditTask from "./pages/EditTask/EditTask";
+
 
 const router = createBrowserRouter([
   {
@@ -33,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: "add-task",
         element: <NewTask />,
+      },
+      {
+        path: "update-task/:id",
+        element: <EditTask />,
       },
     ],
   },

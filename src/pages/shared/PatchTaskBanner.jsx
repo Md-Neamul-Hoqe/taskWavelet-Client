@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 const PatchTaskBanner = ({ newTaskBanner }) => {
-  console.log(newTaskBanner);
+  // console.log(newTaskBanner);
   return (
     <>
       <img
